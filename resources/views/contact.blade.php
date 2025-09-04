@@ -241,8 +241,15 @@
                                                 <!-- Contact Form -->
                                                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                                                     <!-- Form -->
+
                                                     <div class="lg:col-span-2">
-                                                        <form class="space-y-6 animate-slide-up-delay">
+                                                        @if(session('success'))
+                                                            <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4">
+                                                                {{ session('success') }}
+                                                            </div>
+                                                        @endif
+                                                        <form action="{{ route('contact.store') }}" method="POST" class="space-y-6 animate-slide-up-delay">
+                                                            @csrf
                                                             <!-- Name and Email Row -->
                                                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                                                 <div class="group">
