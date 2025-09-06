@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <link rel="shortcut icon" href="{{ asset('assets/logo-ames.png') }}" type="image/x-icon">
 
         {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
         <!-- Styles / Scripts -->
@@ -16,7 +17,7 @@
             @vite(['resources/css/app.css', 'resources/js/app.js'])
         @else
             <style>
-                /* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,:before,:after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content: ""}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Figtree,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.-bottom-16{bottom:-4rem}.-left-16{left:-4rem}.-left-20{left:-5rem}.top-0{top:0}.z-0{z-index:0}.\!row-span-1{grid-row:span 1 / span 1!important}.-mx-3{margin-left:-.75rem;margin-right:-.75rem}.-ml-px{margin-left:-1px}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.\!hidden{display:none!important}.hidden{display:none}.aspect-video{aspect-ratio:16 / 9}.size-12{width:3rem;height:3rem}.size-5{width:1.25rem;height:1.25rem}.size-6{width:1.5rem;height:1.5rem}.h-12{height:3rem}.h-40{height:10rem}.h-5{height:1.25rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-\[calc\(100\%_\+_8rem\)\]{width:calc(100% + 8rem)}.w-auto{width:auto}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-\[877px\]{max-width:877px}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-default{cursor:default}.resize{resize:both}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.\!flex-row{flex-direction:row!important}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-items-center{justify-items:center}.gap-2{gap:.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.rounded-\[10px\]{border-radius:10px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded-l-md{border-top-left-radius:.375rem;border-bottom-left-radius:.375rem}.rounded-r-md{border-top-right-radius:.375rem;border-bottom-right-radius:.375rem}.border{border-width:1px}.border-gray-300{--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.bg-\[\#FF2D20\]\/10{background-color:#ff2d201a}.bg-gray-50{--tw-bg-opacity: 1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.from-transparent{--tw-gradient-from: transparent var(--tw-gradient-from-position);--tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.via-white{--tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-white{--tw-gradient-to: #fff var(--tw-gradient-to-position)}.to-zinc-900{--tw-gradient-to: #18181b var(--tw-gradient-to-position)}.stroke-\[\#FF2D20\]{stroke:#ff2d20}.object-cover{-o-object-fit:cover;object-fit:cover}.object-top{-o-object-position:top;object-position:top}.p-6{padding:1.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.pt-3{padding-top:.75rem}.text-center{text-align:center}.font-sans{font-family:Figtree,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}.text-sm{font-size:.875rem;line-height:1.25rem}.text-sm\/relaxed{font-size:.875rem;line-height:1.625}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-5{line-height:1.25rem}.text-black{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-black\/50{color:#00000080}.text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.underline{text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-\[0px_14px_34px_0px_rgba\(0\,0\,0\,0\.08\)\]{--tw-shadow: 0px 14px 34px 0px rgba(0,0,0,.08);--tw-shadow-colored: 0px 14px 34px 0px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);--tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.ring-1{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.ring-black{--tw-ring-opacity: 1;--tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity, 1))}.ring-gray-300{--tw-ring-opacity: 1;--tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity, 1))}.ring-transparent{--tw-ring-color: transparent}.ring-white{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1))}.ring-white\/\[0\.05\]{--tw-ring-color: rgb(255 255 255 / .05)}.drop-shadow-\[0px_4px_34px_rgba\(0\,0\,0\,0\.06\)\]{--tw-drop-shadow: drop-shadow(0px 4px 34px rgba(0,0,0,.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-\[0px_4px_34px_rgba\(0\,0\,0\,0\.25\)\]{--tw-drop-shadow: drop-shadow(0px 4px 34px rgba(0,0,0,.25));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-150{transition-duration:.15s}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.selection\:bg-\[\#FF2D20\] *::-moz-selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:bg-\[\#FF2D20\] *::selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:text-white *::-moz-selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:text-white *::selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:bg-\[\#FF2D20\]::-moz-selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:bg-\[\#FF2D20\]::selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:text-white::-moz-selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:text-white::selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-black:hover{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.hover\:text-black\/70:hover{color:#000000b3}.hover\:text-gray-400:hover{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.hover\:text-gray-500:hover{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.hover\:ring-black\/20:hover{--tw-ring-color: rgb(0 0 0 / .2)}.focus\:z-10:focus{z-index:10}.focus\:border-blue-300:focus{--tw-border-opacity: 1;border-color:rgb(147 197 253 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring:focus{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-1:focus-visible{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 45 32 / var(--tw-ring-opacity, 1))}.active\:bg-gray-100:active{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.active\:text-gray-500:active{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.active\:text-gray-700:active{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:size-16{width:4rem;height:4rem}.sm\:size-6{width:1.5rem;height:1.5rem}.sm\:flex-1{flex:1 1 0%}.sm\:items-center{align-items:center}.sm\:justify-between{justify-content:space-between}.sm\:pt-5{padding-top:1.25rem}}@media (min-width: 768px){.md\:row-span-3{grid-row:span 3 / span 3}}@media (min-width: 1024px){.lg\:col-start-2{grid-column-start:2}.lg\:h-16{height:4rem}.lg\:max-w-7xl{max-width:80rem}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:flex-col{flex-direction:column}.lg\:items-end{align-items:flex-end}.lg\:justify-center{justify-content:center}.lg\:gap-8{gap:2rem}.lg\:p-10{padding:2.5rem}.lg\:pb-10{padding-bottom:2.5rem}.lg\:pt-0{padding-top:0}.lg\:text-\[\#FF2D20\]{--tw-text-opacity: 1;color:rgb(255 45 32 / var(--tw-text-opacity, 1))}}.rtl\:flex-row-reverse:where([dir=rtl],[dir=rtl] *){flex-direction:row-reverse}@media (prefers-color-scheme: dark){.dark\:block{display:block}.dark\:hidden{display:none}.dark\:border-gray-600{--tw-border-opacity: 1;border-color:rgb(75 85 99 / var(--tw-border-opacity, 1))}.dark\:bg-black{--tw-bg-opacity: 1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-800{--tw-bg-opacity: 1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.dark\:bg-zinc-900{--tw-bg-opacity: 1;background-color:rgb(24 24 27 / var(--tw-bg-opacity, 1))}.dark\:via-zinc-900{--tw-gradient-to: rgb(24 24 27 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), #18181b var(--tw-gradient-via-position), var(--tw-gradient-to)}.dark\:to-zinc-900{--tw-gradient-to: #18181b var(--tw-gradient-to-position)}.dark\:text-gray-300{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.dark\:text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.dark\:text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:text-white\/50{color:#ffffff80}.dark\:text-white\/70{color:#ffffffb3}.dark\:ring-zinc-800{--tw-ring-opacity: 1;--tw-ring-color: rgb(39 39 42 / var(--tw-ring-opacity, 1))}.dark\:hover\:text-gray-300:hover{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:hover\:text-white:hover{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:hover\:text-white\/70:hover{color:#ffffffb3}.dark\:hover\:text-white\/80:hover{color:#fffc}.dark\:hover\:ring-zinc-700:hover{--tw-ring-opacity: 1;--tw-ring-color: rgb(63 63 70 / var(--tw-ring-opacity, 1))}.dark\:focus\:border-blue-700:focus{--tw-border-opacity: 1;border-color:rgb(29 78 216 / var(--tw-border-opacity, 1))}.dark\:focus\:border-blue-800:focus{--tw-border-opacity: 1;border-color:rgb(30 64 175 / var(--tw-border-opacity, 1))}.dark\:focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 45 32 / var(--tw-ring-opacity, 1))}.dark\:focus-visible\:ring-white:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1))}.dark\:active\:bg-gray-700:active{--tw-bg-opacity: 1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.dark\:active\:text-gray-300:active{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}}
+                /* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,:before,:after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content: ""}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Figtree,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.-bottom-16{bottom:-4rem}.-left-16{left:-4rem}.-left-20{left:-5rem}.top-0{top:0}.z-0{z-index:0}.\!row-span-1{grid-row:span 1 / span 1!important}.-mx-3{margin-left:-.75rem;margin-right:-.75rem}.-ml-px{margin-left:-1px}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.\!hidden{display:none!important}.hidden{display:none}.aspect-video{aspect-ratio:16 / 9}.size-12{width:3rem;height:3rem}.size-5{width:1.25rem;height:1.25rem}.size-6{width:1.5rem;height:1.5rem}.h-12{height:3rem}.h-40{height:10rem}.h-5{height:1.25rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-\[calc\(100\%_\+_8rem\)\]{width:calc(100% + 8rem)}.w-auto{width:auto}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-\[877px\]{max-width:877px}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-default{cursor:default}.resize{resize:both}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.\!flex-row{flex-direction:row!important}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-items-center{justify-items:center}.gap-2{gap:.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.rounded-\[10px\]{border-radius:10px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded-l-md{border-top-left-radius:.375rem;border-bottom-left-radius:.375rem}.rounded-r-md{border-top-right-radius:.375rem;border-bottom-right-radius:.375rem}.border{border-width:1px}.border-gray-300{--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.bg-\[\#FF2D20\]\/10{background-color:#ff2d201a}.bg-gray-50{--tw-bg-opacity: 1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.from-transparent{--tw-gradient-from: transparent var(--tw-gradient-from-position);--tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.via-white{--tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-white{--tw-gradient-to: #fff var(--tw-gradient-to-position)}.to-zinc-900{--tw-gradient-to: #18181b var(--tw-gradient-to-position)}.stroke-\[\#FF2D20\]{stroke:#ff2d20}.object-cover{-o-object-fit:cover;object-fit:cover}.object-top{-o-object-position:top;object-position:top}.p-6{padding:1.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.pt-3{padding-top:.75rem}.text-center{text-align:center}.font-sans{font-family:Figtree,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}.text-sm{font-size:.875rem;line-height:1.25rem}.text-sm\/relaxed{font-size:.875rem;line-height:1.625}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-5{line-height:1.25rem}.text-black{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-black\/50{color:#00000080}.text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.underline{text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-\[0px_14px_34px_0px_rgba\(0\,0\,0\,0\.08\)\]{--tw-shadow: 0px 14px 34px 0px rgba(0,0,0,.08);--tw-shadow-colored: 0px 14px 34px 0px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);--tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.ring-1{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.ring-black{--tw-ring-opacity: 1;--tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity, 1))}.ring-gray-300{--tw-ring-opacity: 1;--tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity, 1))}.ring-transparent{--tw-ring-color: transparent}.ring-white{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1))}.ring-white\/\[0\.05\]{--tw-ring-color: rgb(255 255 255 / .05)}.drop-shadow-\[0px_4px_34px_rgba\(0\,0\,0\,0\.06\)\]{--tw-drop-shadow: drop-shadow(0px 4px 34px rgba(0,0,0,.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-\[0px_4px_34px_rgba\(0\,0\,0\,0\.25\)\]{--tw-drop-shadow: drop-shadow(0px 4px 34px rgba(0,0,0,.25));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-150{transition-duration:.15s}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.selection\:bg-\[\#FF2D20\] *::-moz-selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:bg-\[\#FF2D20\] *::selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:text-white *::-moz-selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:text-white *::selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:bg-\[\#FF2D20\]::-moz-selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:bg-\[\#FF2D20\]::selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:text-white::-moz-selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:text-white::selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-black:hover{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.hover\:text-black\/70:hover{color:#000000b3}.hover\:text-gray-400:hover{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.hover\:text-gray-500:hover{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.hover\:ring-black\/20:hover{--tw-ring-color: rgb(0 0 0 / .2)}.focus\:z-10:focus{z-index:10}.focus\:border-blue-300:focus{--tw-border-opacity: 1;border-color:rgb(147 197 253 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring:focus{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-1:focus-visible{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 45 32 / var(--tw-ring-opacity, 1))}.active\:bg-gray-100:active{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.active\:text-gray-500:active{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.active\:text-gray-700:active{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:size-16{width:4rem;height:4rem}.sm\:size-6{width:1.5rem;height:1.5rem}.sm\:flex-1{flex:1 1 0%}.sm\:items-center{align-items:center}.sm\:justify-between{justify-content:space-between}.sm\:pt-5{padding-top:1.25rem}}@media (min-width: 768px){.md\:row-span-3{grid-row:span 3 / span 3}}@media (min-width: 1024px){.lg\:col-start-2{grid-column-start:2}.lg\:h-16{height:4rem}.lg\:max-w-7xl{max-width:80rem}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:flex-col{flex-direction:column}.lg\:items-end{align-items:flex-end}.lg\:justify-center{justify-content:center}.lg\:gap-8{gap:2rem}.lg\:p-10{padding:2.5rem}.lg\:pb-10{padding-bottom:2.5rem}.lg\:pt-0{padding-top:0}.lg\:text-\[\#FF2D20\]{--tw-text-opacity: 1;color:rgb(255 45 32 / var(--tw-text-opacity, 1))}}.rtl\:flex-row-reverse:where([dir=rtl],[dir=rtl] *){flex-direction:row-reverse}@media (prefers-color-scheme: dark){.dark\:block{display:block}.dark\:hidden{display:none}.dark\:border-gray-600{--tw-border-opacity: 1;border-color:rgb(75 85 99 / var(--tw-border-opacity, 1))}.dark\:bg-black{--tw-bg-opacity: 1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-800{--tw-bg-opacity: 1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.dark\:bg-zinc-900{--tw-bg-opacity: 1;background-color:rgb(24 24 27 / var(--tw-bg-opacity, 1))}.dark\:via-zinc-900{--tw-gradient-to: rgb(24 24 27 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), #18181b var(--tw-gradient-via-position), var(--tw-gradient-to)}.dark\:to-zinc-900{--tw-gradient-to: #18181b var(--tw-gradient-to-position)}.dark\:text-gray-300{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.dark\:text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.dark\:text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:text-white\/50{color:#ffffff80}.dark\:text-white\/70{color:#ffffffb3}.dark\:hover\:text-gray-300:hover{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:hover\:text-white:hover{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:hover\:text-white\/70:hover{color:#ffffffb3}.dark\:hover\:text-white\/80:hover{color:#fffc}.dark\:hover\:ring-zinc-700:hover{--tw-ring-opacity: 1;--tw-ring-color: rgb(63 63 70 / var(--tw-ring-opacity, 1))}.dark\:focus\:border-blue-700:focus{--tw-border-opacity: 1;border-color:rgb(29 78 216 / var(--tw-border-opacity, 1))}.dark\:focus\:border-blue-800:focus{--tw-border-opacity: 1;border-color:rgb(30 64 175 / var(--tw-border-opacity, 1))}.dark\:focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 45 32 / var(--tw-ring-opacity, 1))}.dark\:focus-visible\:ring-white:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1))}.dark\:active\:bg-gray-700:active{--tw-bg-opacity: 1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.dark\:active\:text-gray-300:active{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}}
             </style>
         @endif
     </head>
@@ -24,7 +25,7 @@
         <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
 
                                     <!-- Hero Section -->
-                    <section class="relative min-h-screens w-full flex flex-col bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 overflow-hidden">
+                                    <section class="relative min-h-screens w-full flex flex-col bg-gradient-to-br from-green-900 via-green-600 to-green-900 overflow-hidden">
                                         <!-- Animated background elements -->
                                         <div class="absolute inset-0">
                                             <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-600/20"></div>
@@ -41,10 +42,10 @@
                                             <div class="max-w-7xl mx-auto flex items-center justify-between">
                                                 <!-- Logo -->
                                                 <div class="flex items-center space-x-3">
-                                                    <div class="w-10 h-10 bg-gradient-to-r from-white to-blue-100 rounded-xl flex items-center justify-center shadow-lg">
-                                                        <span class="text-xl font-black text-blue-700">A</span>
-                                            </div>
-                                                    <span class="text-xl font-bold text-white hidden sm:block">AMES MED</span>
+                                                    <div class="w-10 h-10 bg-white rounded shadow flex items-center justify-center">
+                                                   <img src="{{ asset('assets/logo-ames.png') }}" alt="">
+                                                </div>
+                                                    <span class="text-xl font-bold bg-gradient-to-r from-white to-green-700 bg-clip-text text-transparent hidden sm:block">AMES</span>
                                                 </div>
 
                                                 <!-- Desktop Menu -->
@@ -142,11 +143,11 @@
 
                                                 <!-- CTA Buttons -->
                                                 <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center animate-slide-up-delay-3 px-4 pb-4">
-                                                    <a href="#produits" class="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-white to-blue-50 text-blue-700 font-bold rounded-2xl shadow-2xl text-base sm:text-lg hover:shadow-blue-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-blue-300/50 w-full sm:w-auto">
+                                                    <a href="#produits" class="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-white to-blue-50 text-green-700 font-bold rounded-2xl shadow-2xl text-base sm:text-lg hover:shadow-blue-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-green-300/50 w-full sm:w-auto">
                                                         <span class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative flex items-center justify-center">
                                                             Découvrir nos produits
-                                                            <svg class="ml-2 sm:ml-3 h-5 w-5 sm:h-6 sm:w-6 text-blue-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                            <svg class="ml-2 sm:ml-3 h-5 w-5 sm:h-6 sm:w-6 text-green-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
                                                             </svg>
                                                         </span>
@@ -217,13 +218,17 @@
 
             <!-- Main content container for other sections -->
             <div class="relative w-full max-w-2xl lg:max-w-7xl">
+
+
+            <!-- Main content container for other sections -->
+            <div class="relative w-full max-w-2xl lg:max-w-7xl">
                                                     <!-- About Section -->
-                                    <section id="about" class="relative py-20 bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 dark:from-gray-900 dark:via-blue-900 dark:to-indigo-900 overflow-hidden">
+                                    <section id="about" class="relative py-20 bg-gradient-to-br from-green-50 via-emerald-50 to-green-100 dark:from-green-900 dark:via-emerald-900 dark:to-green-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
-                                            <div class="absolute top-20 left-10 w-32 h-32 bg-blue-200/20 dark:bg-blue-400/10 rounded-full blur-3xl animate-float-slow"></div>
-                                            <div class="absolute bottom-20 right-10 w-40 h-40 bg-indigo-200/20 dark:bg-indigo-400/10 rounded-full blur-3xl animate-float-delayed"></div>
-                                            <div class="absolute top-1/2 left-1/4 w-24 h-24 bg-blue-300/15 dark:bg-blue-500/10 rounded-full blur-2xl animate-float"></div>
+                                            <div class="absolute top-20 left-10 w-32 h-32 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute bottom-20 right-10 w-40 h-40 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute top-1/2 left-1/4 w-24 h-24 bg-green-300/15 dark:bg-green-500/10 rounded-full blur-2xl animate-float"></div>
                                         </div>
 
                                         <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
@@ -231,13 +236,13 @@
                                                 <!-- Content -->
                                                 <div class="space-y-8 animate-slide-up">
                                                     <div class="inline-flex items-center">
-                                                        <span class="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-blue-500/20 group">
-                                                            <span class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                        <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-green-500/20 group">
+                                                            <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                             <span class="relative">Qui sommes-nous ?</span>
                                                         </span>
                                                     </div>
 
-                                                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-800 dark:from-white dark:via-blue-200 dark:to-indigo-200 bg-clip-text text-transparent leading-tight">
+                                                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-green-800 to-emerald-800 dark:from-white dark:via-green-200 dark:to-emerald-200 bg-clip-text text-transparent leading-tight">
                                                         AMES SARL, votre partenaire de confiance depuis 2003
                                                     </h2>
 
@@ -248,7 +253,7 @@
                                                     <!-- Services grid -->
                                                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                                         <div class="group flex items-center space-x-4 p-4 rounded-2xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border border-white/20 dark:border-gray-700/20 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-500 transform hover:scale-105">
-                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-blue-500/25 transition-all duration-500">
+                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-green-500/25 transition-all duration-500">
                                                                 <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
                                                                     <circle cx="12" cy="12" r="10"/>
@@ -258,7 +263,7 @@
                                                         </div>
 
                                                         <div class="group flex items-center space-x-4 p-4 rounded-2xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border border-white/20 dark:border-gray-700/20 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-500 transform hover:scale-105">
-                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-indigo-500/25 transition-all duration-500">
+                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-emerald-500 to-green-400 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-emerald-500/25 transition-all duration-500">
                                                                 <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
                                                                     <circle cx="12" cy="12" r="10"/>
@@ -268,7 +273,7 @@
                                                         </div>
 
                                                         <div class="group flex items-center space-x-4 p-4 rounded-2xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border border-white/20 dark:border-gray-700/20 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-500 transform hover:scale-105">
-                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-purple-500/25 transition-all duration-500">
+                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-green-400 to-lime-400 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-green-400/25 transition-all duration-500">
                                                                 <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
                                                                     <circle cx="12" cy="12" r="10"/>
@@ -278,7 +283,7 @@
                                                         </div>
 
                                                         <div class="group flex items-center space-x-4 p-4 rounded-2xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border border-white/20 dark:border-gray-700/20 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-500 transform hover:scale-105">
-                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-pink-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-pink-500/25 transition-all duration-500">
+                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-lime-400 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-lime-400/25 transition-all duration-500">
                                                                 <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
                                                                     <circle cx="12" cy="12" r="10"/>
@@ -292,60 +297,95 @@
                                                 <!-- Stats -->
                                                 <div class="grid grid-cols-2 gap-6 animate-slide-up-delay">
                                                     <div class="group relative text-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-3">21+</div>
+                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-3">21+</div>
                                                             <p class="text-gray-600 dark:text-gray-400 font-semibold text-sm sm:text-base">Années d'expérience</p>
                                                         </div>
                                                     </div>
 
                                                     <div class="group relative text-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-green-400/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-3">500+</div>
+                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text text-transparent mb-3">500+</div>
                                                             <p class="text-gray-600 dark:text-gray-400 font-semibold text-sm sm:text-base">Équipements installés</p>
                                                         </div>
                                                     </div>
 
                                                     <div class="group relative text-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-green-400/10 to-lime-400/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-3">200+</div>
+                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-green-400 to-lime-400 bg-clip-text text-transparent mb-3">200+</div>
                                                             <p class="text-gray-600 dark:text-gray-400 font-semibold text-sm sm:text-base">Clients satisfaits</p>
                                                         </div>
                                                     </div>
 
                                                     <div class="group relative text-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-pink-500/10 to-red-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-lime-400/10 to-green-600/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-pink-600 to-red-600 bg-clip-text text-transparent mb-3">50+</div>
+                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-lime-400 to-green-600 bg-clip-text text-transparent mb-3">50+</div>
                                                             <p class="text-gray-600 dark:text-gray-400 font-semibold text-sm sm:text-base">Partenaires techniques</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <style>
+                                            @keyframes slide-up {
+                                                from { opacity: 0; transform: translateY(60px); }
+                                                to { opacity: 1; transform: translateY(0); }
+                                            }
+                                            @keyframes float {
+                                                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                                                50% { transform: translateY(-20px) rotate(180deg); }
+                                            }
+                                            @keyframes float-delayed {
+                                                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                                                50% { transform: translateY(-30px) rotate(-180deg); }
+                                            }
+                                            @keyframes float-slow {
+                                                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                                                50% { transform: translateY(-15px) rotate(90deg); }
+                                            }
+                                            @keyframes float-delayed-2 {
+                                                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                                                50% { transform: translateY(-25px) rotate(-90deg); }
+                                            }
+
+                                            .animate-slide-up { animation: slide-up 1.2s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay { animation: slide-up 1.2s 0.2s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay-2 { animation: slide-up 1.2s 0.4s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay-3 { animation: slide-up 1.2s 0.6s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay-4 { animation: slide-up 1.2s 0.8s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay-5 { animation: slide-up 1.2s 1s cubic-bezier(0.4, 0, 0.2, 1) both; }
+
+                                            .animate-float { animation: float 6s ease-in-out infinite; }
+                                            .animate-float-delayed { animation: float-delayed 8s ease-in-out infinite; }
+                                            .animate-float-slow { animation: float-slow 10s ease-in-out infinite; }
+                                            .animate-float-delayed-2 { animation: float-delayed-2 7s ease-in-out infinite; }
+                                        </style>
                                     </section>
 
                                     <!-- Values Section -->
-                                    <section class="relative py-20 bg-gradient-to-br from-white via-gray-50 to-blue-50 dark:from-gray-800 dark:via-gray-900 dark:to-blue-900 overflow-hidden">
+                                    <section class="relative py-20 bg-gradient-to-br from-white via-green-50 to-emerald-50 dark:from-green-800 dark:via-green-900 dark:to-emerald-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
-                                            <div class="absolute top-10 right-20 w-40 h-40 bg-blue-200/20 dark:bg-blue-400/10 rounded-full blur-3xl animate-float-delayed"></div>
-                                            <div class="absolute bottom-10 left-20 w-32 h-32 bg-indigo-200/20 dark:bg-indigo-400/10 rounded-full blur-3xl animate-float-slow"></div>
-                                            <div class="absolute top-1/3 right-1/3 w-24 h-24 bg-purple-200/15 dark:bg-purple-400/10 rounded-full blur-2xl animate-float"></div>
+                                            <div class="absolute top-10 right-20 w-40 h-40 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute bottom-10 left-20 w-32 h-32 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute top-1/3 right-1/3 w-24 h-24 bg-lime-200/15 dark:bg-lime-400/10 rounded-full blur-2xl animate-float"></div>
                                         </div>
 
                                         <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
                                             <div class="text-center mb-16 animate-slide-up">
                                                 <div class="inline-flex items-center mb-6">
-                                                    <span class="relative bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-indigo-500/20 group">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-green-500/20 group">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative">Nos Valeurs</span>
                                                     </span>
                                                 </div>
 
-                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-indigo-800 to-purple-800 dark:from-white dark:via-indigo-200 dark:to-purple-200 bg-clip-text text-transparent mb-6 leading-tight">
+                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-green-800 to-emerald-800 dark:from-white dark:via-green-200 dark:to-emerald-200 bg-clip-text text-transparent mb-6 leading-tight">
                                                     Excellence, Engagement &amp; Satisfaction
                                                 </h2>
 
@@ -357,70 +397,105 @@
                                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
                                                 <!-- Qualification -->
                                                 <div class="group relative text-center p-8 lg:p-10 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 animate-slide-up-delay">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative">
-                                                        <div class="mx-auto w-20 h-20 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-blue-500/25 transition-all duration-500">
+                                                        <div class="mx-auto w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-green-500/25 transition-all duration-500">
                                                             <svg class="h-10 w-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                 <circle cx="12" cy="12" r="10"/>
                                                                 <circle cx="12" cy="12" r="6"/>
                                                                 <circle cx="12" cy="12" r="2"/>
                                                             </svg>
                                                         </div>
-                                                        <h3 class="text-xl sm:text-2xl font-black bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-4">Qualification</h3>
+                                                        <h3 class="text-xl sm:text-2xl font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-4">Qualification</h3>
                                                         <p class="text-gray-600 dark:text-gray-400 leading-relaxed font-medium">Nous sommes doués pour vous satisfaire avec notre expertise technique</p>
                                                     </div>
                                                 </div>
 
                                                 <!-- Rapidité -->
                                                 <div class="group relative text-center p-8 lg:p-10 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 animate-slide-up-delay-2">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-lime-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative">
-                                                        <div class="mx-auto w-20 h-20 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-indigo-500/25 transition-all duration-500">
+                                                        <div class="mx-auto w-20 h-20 bg-gradient-to-r from-emerald-500 to-lime-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-emerald-500/25 transition-all duration-500">
                                                             <svg class="h-10 w-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                 <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
                                                             </svg>
                                                         </div>
-                                                        <h3 class="text-xl sm:text-2xl font-black bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4">Rapidité</h3>
+                                                        <h3 class="text-xl sm:text-2xl font-black bg-gradient-to-r from-emerald-600 to-lime-600 bg-clip-text text-transparent mb-4">Rapidité</h3>
                                                         <p class="text-gray-600 dark:text-gray-400 leading-relaxed font-medium">Nous vous livrons dans les délais avec une logistique optimisée</p>
                                                     </div>
                                                 </div>
 
                                                 <!-- Engagement -->
                                                 <div class="group relative text-center p-8 lg:p-10 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 animate-slide-up-delay-3">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-lime-500/10 to-green-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative">
-                                                        <div class="mx-auto w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-purple-500/25 transition-all duration-500">
+                                                        <div class="mx-auto w-20 h-20 bg-gradient-to-r from-lime-500 to-green-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:shadow-lime-500/25 transition-all duration-500">
                                                             <svg class="h-10 w-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                                                             </svg>
                                                         </div>
-                                                        <h3 class="text-xl sm:text-2xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">Engagement</h3>
+                                                        <h3 class="text-xl sm:text-2xl font-black bg-gradient-to-r from-lime-600 to-green-600 bg-clip-text text-transparent mb-4">Engagement</h3>
                                                         <p class="text-gray-600 dark:text-gray-400 leading-relaxed font-medium">Nous sommes très engagés envers nos clients et leur réussite</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <style>
+                                            @keyframes slide-up {
+                                                from { opacity: 0; transform: translateY(60px); }
+                                                to { opacity: 1; transform: translateY(0); }
+                                            }
+                                            @keyframes float {
+                                                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                                                50% { transform: translateY(-20px) rotate(180deg); }
+                                            }
+                                            @keyframes float-delayed {
+                                                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                                                50% { transform: translateY(-30px) rotate(-180deg); }
+                                            }
+                                            @keyframes float-slow {
+                                                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                                                50% { transform: translateY(-15px) rotate(90deg); }
+                                            }
+                                            @keyframes float-delayed-2 {
+                                                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                                                50% { transform: translateY(-25px) rotate(-90deg); }
+                                            }
+
+                                            .animate-slide-up { animation: slide-up 1.2s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay { animation: slide-up 1.2s 0.2s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay-2 { animation: slide-up 1.2s 0.4s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay-3 { animation: slide-up 1.2s 0.6s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay-4 { animation: slide-up 1.2s 0.8s cubic-bezier(0.4, 0, 0.2, 1) both; }
+                                            .animate-slide-up-delay-5 { animation: slide-up 1.2s 1s cubic-bezier(0.4, 0, 0.2, 1) both; }
+
+                                            .animate-float { animation: float 6s ease-in-out infinite; }
+                                            .animate-float-delayed { animation: float-delayed 8s ease-in-out infinite; }
+                                            .animate-float-slow { animation: float-slow 10s ease-in-out infinite; }
+                                            .animate-float-delayed-2 { animation: float-delayed-2 7s ease-in-out infinite; }
+                                        </style>
                                     </section>
 
                                     <!-- Featured Products Carousel (statique) -->
-                                    <section id="produits" class="relative py-20 bg-gradient-to-br from-gray-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-indigo-900 dark:to-purple-900 overflow-hidden">
+                                    <section id="produits" class="relative py-20 bg-gradient-to-br from-gray-50 via-green-50 to-emerald-50 dark:from-gray-900 dark:via-green-900 dark:to-emerald-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
-                                            <div class="absolute top-20 left-10 w-36 h-36 bg-indigo-200/20 dark:bg-indigo-400/10 rounded-full blur-3xl animate-float-slow"></div>
-                                            <div class="absolute bottom-20 right-10 w-44 h-44 bg-purple-200/20 dark:bg-purple-400/10 rounded-full blur-3xl animate-float-delayed"></div>
-                                            <div class="absolute top-1/2 left-1/3 w-28 h-28 bg-blue-200/15 dark:bg-blue-400/10 rounded-full blur-2xl animate-float"></div>
+                                            <div class="absolute top-20 left-10 w-36 h-36 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute bottom-20 right-10 w-44 h-44 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute top-1/2 left-1/3 w-28 h-28 bg-lime-200/15 dark:bg-lime-400/10 rounded-full blur-2xl animate-float"></div>
                                         </div>
 
                                         <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
                                             <div class="text-center mb-16 animate-slide-up">
                                                 <div class="inline-flex items-center mb-6">
-                                                    <span class="relative bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-purple-500/20 group">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-green-500/20 group">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative">Nos Produits Phares</span>
                                                     </span>
                                                 </div>
 
-                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-purple-800 to-pink-800 dark:from-white dark:via-purple-200 dark:to-pink-200 bg-clip-text text-transparent mb-6 leading-tight">
+                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-green-800 to-emerald-800 dark:from-white dark:via-green-200 dark:to-emerald-200 bg-clip-text text-transparent mb-6 leading-tight">
                                                     Solutions d'Excellence pour la Santé
                                                 </h2>
 
@@ -432,7 +507,7 @@
                                             <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
                                                 <!-- Product 1 -->
                                                 <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative p-6 flex flex-col h-full">
                                                         <div class="relative overflow-hidden rounded-2xl mb-6">
                                                             <img src="{{ asset('/assets/lab-equipment.jpg') }}" alt="Automate Biochimie LIDA 300" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
@@ -442,8 +517,8 @@
                                                             <h3 class="text-xl font-black text-gray-900 dark:text-white mb-3">Automate Biochimie LIDA 300</h3>
                                                             <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed flex-1">Analyseur de biochimie automatisé haute performance pour laboratoires cliniques</p>
                                                             <div class="flex items-center justify-between mb-4">
-                                                                <span class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Laboratoire</span>
-                                                                <div class="text-sm font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Prix sur devis</div>
+                                                                <span class="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Laboratoire</span>
+                                                                <div class="text-sm font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">Prix sur devis</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -451,7 +526,7 @@
 
                                                 <!-- Product 2 -->
                                                 <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay-2">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-lime-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative p-6 flex flex-col h-full">
                                                         <div class="relative overflow-hidden rounded-2xl mb-6">
                                                             <img src="{{ asset('/assets/imaging-equipment.jpg') }}" alt="Équipement d'Imagerie Médicale" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
@@ -461,8 +536,8 @@
                                                             <h3 class="text-xl font-black text-gray-900 dark:text-white mb-3">Équipement d'Imagerie Médicale</h3>
                                                             <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed flex-1">Solutions d'imagerie avancées pour diagnostics précis</p>
                                                             <div class="flex items-center justify-between mb-4">
-                                                                <span class="inline-block bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Imagerie</span>
-                                                                <div class="text-sm font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Prix sur devis</div>
+                                                                <span class="inline-block bg-gradient-to-r from-emerald-500 to-lime-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Imagerie</span>
+                                                                <div class="text-sm font-bold bg-gradient-to-r from-emerald-600 to-lime-600 bg-clip-text text-transparent">Prix sur devis</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -470,7 +545,7 @@
 
                                                 <!-- Product 3 -->
                                                 <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay-3 md:col-span-2 lg:col-span-1">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-lime-500/10 to-green-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative p-6 flex flex-col h-full">
                                                         <div class="relative overflow-hidden rounded-2xl mb-6">
                                                             <img src="{{ asset('/assets/lab-equipment.jpg') }}" alt="Vibromètre-accéléromètre" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
@@ -480,8 +555,8 @@
                                                             <h3 class="text-xl font-black text-gray-900 dark:text-white mb-3">Vibromètre-accéléromètre</h3>
                                                             <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed flex-1">Instrument de mesure des vibrations pour applications médicales</p>
                                                             <div class="flex items-center justify-between mb-4">
-                                                                <span class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Mesure</span>
-                                                                <div class="text-sm font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Prix sur devis</div>
+                                                                <span class="inline-block bg-gradient-to-r from-lime-500 to-green-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Mesure</span>
+                                                                <div class="text-sm font-bold bg-gradient-to-r from-lime-600 to-green-600 bg-clip-text text-transparent">Prix sur devis</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -491,24 +566,24 @@
                                     </section>
 
                                     <!-- Team Section -->
-                                    <section class="relative py-20 bg-gradient-to-br from-white via-gray-50 to-indigo-50 dark:from-gray-800 dark:via-gray-900 dark:to-indigo-900 overflow-hidden">
+                                    <section class="relative py-20 bg-gradient-to-br from-white via-green-50 to-emerald-50 dark:from-green-800 dark:via-green-900 dark:to-emerald-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
-                                            <div class="absolute top-20 right-10 w-32 h-32 bg-indigo-200/20 dark:bg-indigo-400/10 rounded-full blur-3xl animate-float-slow"></div>
-                                            <div class="absolute bottom-20 left-10 w-40 h-40 bg-blue-200/20 dark:bg-blue-400/10 rounded-full blur-3xl animate-float-delayed"></div>
-                                            <div class="absolute top-1/2 right-1/4 w-24 h-24 bg-purple-200/15 dark:bg-purple-400/10 rounded-full blur-2xl animate-float"></div>
+                                            <div class="absolute top-20 right-10 w-32 h-32 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute bottom-20 left-10 w-40 h-40 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute top-1/2 right-1/4 w-24 h-24 bg-lime-200/15 dark:bg-lime-400/10 rounded-full blur-2xl animate-float"></div>
                                         </div>
 
                                         <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
                                             <div class="text-center mb-16 animate-slide-up">
                                                 <div class="inline-flex items-center mb-6">
-                                                    <span class="relative bg-gradient-to-r from-pink-600 to-red-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-pink-500/20 group">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-pink-500/20 to-red-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-green-500/20 group">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative">Notre Équipe</span>
                                                     </span>
                                                 </div>
 
-                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-pink-800 to-red-800 dark:from-white dark:via-pink-200 dark:to-red-200 bg-clip-text text-transparent mb-6 leading-tight">
+                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-green-800 to-emerald-800 dark:from-white dark:via-green-200 dark:to-emerald-200 bg-clip-text text-transparent mb-6 leading-tight">
                                                     Une équipe compétente à votre service
                                                 </h2>
 
@@ -520,43 +595,43 @@
                                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
                                                 <!-- Team Member 1 -->
                                                 <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 p-8 animate-slide-up-delay">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative text-center">
-                                                        <div class="w-20 h-20 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:shadow-blue-500/25 transition-all duration-500">
+                                                        <div class="w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:shadow-green-500/25 transition-all duration-500">
                                                             <span class="text-2xl font-black text-white">NY</span>
                                                         </div>
                                                         <h3 class="text-xl font-black text-gray-900 dark:text-white mb-2">Narcisse YABI</h3>
-                                                        <p class="text-sm font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-4">Directeur Général</p>
+                                                        <p class="text-sm font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-4">Directeur Général</p>
                                                         <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-4">Responsable et promoteur de AMES SARL, spécialiste en importation et distribution d'équipements médicaux</p>
-                                                        <span class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Direction</span>
+                                                        <span class="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Direction</span>
                                                     </div>
                                                 </div>
 
                                                 <!-- Team Member 2 -->
                                                 <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 p-8 animate-slide-up-delay-2">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-lime-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative text-center">
-                                                        <div class="w-20 h-20 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:shadow-indigo-500/25 transition-all duration-500">
+                                                        <div class="w-20 h-20 bg-gradient-to-r from-emerald-500 to-lime-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:shadow-emerald-500/25 transition-all duration-500">
                                                             <span class="text-2xl font-black text-white">AY</span>
                                                         </div>
                                                         <h3 class="text-xl font-black text-gray-900 dark:text-white mb-2">Arnaud YABI</h3>
-                                                        <p class="text-sm font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4">Directeur Administratif et Financier</p>
+                                                        <p class="text-sm font-bold bg-gradient-to-r from-emerald-600 to-lime-600 bg-clip-text text-transparent mb-4">Directeur Administratif et Financier</p>
                                                         <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-4">Développe les outils d'aide à la décision stratégique et planifie le développement de l'entreprise</p>
-                                                        <span class="inline-block bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Finance</span>
+                                                        <span class="inline-block bg-gradient-to-r from-emerald-500 to-lime-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Finance</span>
                                                     </div>
                                                 </div>
 
                                                 <!-- Team Member 3 -->
                                                 <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 p-8 animate-slide-up-delay-3 md:col-span-2 lg:col-span-1">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-lime-500/10 to-green-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative text-center">
-                                                        <div class="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:shadow-purple-500/25 transition-all duration-500">
+                                                        <div class="w-20 h-20 bg-gradient-to-r from-lime-500 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:shadow-lime-500/25 transition-all duration-500">
                                                             <span class="text-2xl font-black text-white">NA</span>
                                                         </div>
                                                         <h3 class="text-xl font-black text-gray-900 dark:text-white mb-2">Nafissatou ADAM</h3>
-                                                        <p class="text-sm font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">Assistante de Direction</p>
+                                                        <p class="text-sm font-bold bg-gradient-to-r from-lime-600 to-green-600 bg-clip-text text-transparent mb-4">Assistante de Direction</p>
                                                         <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-4">Chargée des dossiers d'appel d'offres et experte en planification stratégique</p>
-                                                        <span class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Administration</span>
+                                                        <span class="inline-block bg-gradient-to-r from-lime-500 to-green-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Administration</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -564,7 +639,7 @@
                                     </section>
 
                                     <!-- CTA Section -->
-                                    <section id="contact" class="relative py-20 bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 overflow-hidden">
+                                    <section id="contact" class="relative py-20 bg-gradient-to-br from-green-900 via-emerald-900 to-green-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
                                             <div class="absolute top-10 left-10 w-40 h-40 bg-white/10 rounded-full blur-3xl animate-float-slow"></div>
@@ -618,11 +693,11 @@
                                                         </svg>
                                                         <span class="relative">Appel direct</span>
                                                     </a>
-                                                    <a href="#" class="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-white to-blue-50 text-blue-700 font-bold rounded-2xl shadow-2xl text-lg hover:shadow-blue-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-blue-300/50 w-full sm:w-auto">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <a href="#" class="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-white to-green-50 text-green-700 font-bold rounded-2xl shadow-2xl text-lg hover:shadow-green-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-green-300/50 w-full sm:w-auto">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative flex items-center justify-center">
                                                         Demander un devis
-                                                            <svg class="ml-3 h-6 w-6 text-blue-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                            <svg class="ml-3 h-6 w-6 text-green-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
                                                             </svg>
                                                         </span>
@@ -635,7 +710,7 @@
                             </div>
 
                             <!-- Footer -->
-                            <footer class="relative bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
+                            <footer class="relative bg-gradient-to-br from-gray-900 via-green-900 to-emerald-900 text-white overflow-hidden">
                                 <!-- Background decorative elements -->
                                 <div class="absolute inset-0">
                                     <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-600/10 to-indigo-600/10"></div>
@@ -648,10 +723,10 @@
                                         <!-- Company Info -->
                                         <div class="lg:col-span-2 space-y-6">
                                             <div class="flex items-center space-x-3">
-                                                <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center">
-                                                    <span class="text-xl font-black text-white">A</span>
+                                                <div class="w-12 h-12  rounded-xl flex items-center justify-center">
+                                                   <img src="{{ asset('assets/logo-ames.png') }}" alt="">
                                                 </div>
-                                                <h3 class="text-2xl font-black bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">AMES MED EQUIPEMENTS</h3>
+                                                <h3 class="text-2xl font-black bg-gradient-to-r from-white to-green-700 bg-clip-text text-transparent">AMES MED EQUIPEMENTS</h3>
                                             </div>
                                             <p class="text-white/80 leading-relaxed max-w-md">
                                                 Société béninoise spécialisée dans la représentation, l'importation et la distribution d'équipements médicaux, consommables et réactifs de laboratoire pour le diagnostic in vitro.
@@ -670,7 +745,7 @@
                                                 <a href="#" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
                                                     <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                                                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                                                    </svg>
+                                                </svg>
                                                 </a>
                                             </div>
                                         </div>
@@ -679,10 +754,9 @@
                                         <div class="space-y-6">
                                             <h4 class="text-lg font-bold text-white">Liens Rapides</h4>
                                             <ul class="space-y-3">
-                                                <li><a href="#produits" class="text-white/80 hover:text-white transition-colors duration-300">Nos Produits</a></li>
-                                                <li><a href="#contact" class="text-white/80 hover:text-white transition-colors duration-300">Contact</a></li>
-                                                <li><a href="#" class="text-white/80 hover:text-white transition-colors duration-300">À Propos</a></li>
-                                                <li><a href="#" class="text-white/80 hover:text-white transition-colors duration-300">Services</a></li>
+                                                <li><a href="/catalogue" class="text-white/80 hover:text-white transition-colors duration-300">Nos Produits</a></li>
+                                                <li><a href="/contact" class="text-white/80 hover:text-white transition-colors duration-300">Contact</a></li>
+                                                <li><a href="/about" class="text-white/80 hover:text-white transition-colors duration-300">À Propos</a></li>
                                             </ul>
                                         </div>
 
@@ -699,7 +773,7 @@
                                                 </div>
                                                 <div class="flex items-center space-x-3">
                                                     <svg class="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 0 1-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                                                     </svg>
                                                     <span class="text-white/80 text-sm">+229 XX XX XX XX</span>
                                                 </div>

@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="shortcut icon" href="{{ asset('assets/logo-ames.png') }}" type="image/x-icon">
+
 
         <title>AMES</title>
 
@@ -28,12 +30,12 @@
                                         <!-- Background Image with Overlay -->
                                         <div class="absolute inset-0">
                                             <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('{{ asset('assets/lab-equipment.jpg') }}');"></div>
-                                            <div class="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-indigo-900/70 to-purple-900/80"></div>
-                                            <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-600/20"></div>
+                                            <div class="absolute inset-0 bg-gradient-to-br from-green-900/80 via-emerald-900/70 to-green-900/80"></div>
+                                            <div class="absolute inset-0 bg-gradient-to-r from-green-600/20 to-emerald-600/20"></div>
                                             <!-- Floating geometric shapes -->
                                             <div class="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl animate-float"></div>
-                                            <div class="absolute top-40 right-20 w-32 h-32 bg-blue-400/20 rounded-full blur-2xl animate-float-delayed"></div>
-                                            <div class="absolute bottom-20 left-1/4 w-16 h-16 bg-indigo-400/15 rounded-full blur-lg animate-float-slow"></div>
+                                            <div class="absolute top-40 right-20 w-32 h-32 bg-green-400/20 rounded-full blur-2xl animate-float-delayed"></div>
+                                            <div class="absolute bottom-20 left-1/4 w-16 h-16 bg-emerald-400/15 rounded-full blur-lg animate-float-slow"></div>
                                             <div class="absolute bottom-40 right-1/3 w-24 h-24 bg-white/5 rounded-full blur-xl animate-float-delayed-2"></div>
                                         </div>
 
@@ -42,10 +44,10 @@
                                             <div class="max-w-7xl mx-auto flex items-center justify-between">
                                                 <!-- Logo -->
                                                 <div class="flex items-center space-x-3">
-                                                    <div class="w-10 h-10 bg-gradient-to-r from-white to-blue-100 rounded-xl flex items-center justify-center shadow-lg">
-                                                        <span class="text-xl font-black text-blue-700">A</span>
-                                            </div>
-                                                    <span class="text-xl font-bold text-white hidden sm:block">AMES MED</span>
+                                                    <div class="w-10 h-10 flex bg-white rounded shadow items-center justify-center">
+                                                   <img src="{{ asset('assets/logo-ames.png') }}" alt="">
+                                                </div>
+                                                    <span class="text-xl font-bold bg-gradient-to-r from-white to-green-700 bg-clip-text text-transparent hidden sm:block">AMES</span>
                                                 </div>
 
                                                 <!-- Desktop Menu -->
@@ -121,17 +123,17 @@
                                                 <!-- Badge -->
                                                 <div class="inline-flex items-center justify-center animate-slide-up">
                                                     <span class="relative bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md text-white px-8 py-3 rounded-full font-bold tracking-widest text-lg shadow-2xl border border-white/20 hover:border-white/40 transition-all duration-500 group">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative">QUI SOMMES-NOUS ?</span>
                                                     </span>
                                                 </div>
 
                                                 <!-- Main heading -->
                                                 <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 sm:mb-8 animate-slide-up-delay px-4">
-                                                    <span class="bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent drop-shadow-2xl block">
+                                                    <span class="bg-gradient-to-r from-white via-green-100 to-emerald-200 bg-clip-text text-transparent drop-shadow-2xl block">
                                                         Votre Partenaire de Confiance
                                                     </span>
-                                                    <span class="bg-gradient-to-r from-blue-200 via-white to-indigo-200 bg-clip-text text-transparent drop-shadow-2xl block">
+                                                    <span class="bg-gradient-to-r from-green-200 via-white to-emerald-200 bg-clip-text text-transparent drop-shadow-2xl block">
                                                         depuis 2003
                                                     </span>
                                                 </h1>
@@ -143,11 +145,11 @@
 
                                                 <!-- CTA Buttons -->
                                                 <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center animate-slide-up-delay-3 px-4 pb-4">
-                                                    <a href="#about" class="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-white to-blue-50 text-blue-700 font-bold rounded-2xl shadow-2xl text-base sm:text-lg hover:shadow-blue-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-blue-300/50 w-full sm:w-auto">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <a href="#about" class="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-white to-green-50 text-green-700 font-bold rounded-2xl shadow-2xl text-base sm:text-lg hover:shadow-green-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-green-300/50 w-full sm:w-auto">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative flex items-center justify-center">
                                                             Découvrir notre histoire
-                                                            <svg class="ml-2 sm:ml-3 h-5 w-5 sm:h-6 sm:w-6 text-blue-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                            <svg class="ml-2 sm:ml-3 h-5 w-5 sm:h-6 sm:w-6 text-green-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
                                                             </svg>
                                                         </span>
@@ -218,108 +220,64 @@
 
             <!-- Main content container for other sections -->
             <div class="relative w-full max-w-2xl lg:max-w-7xl">
-                                                    <!-- About Section -->
-                                    <section id="about" class="relative py-20 bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 dark:from-gray-900 dark:via-blue-900 dark:to-indigo-900 overflow-hidden">
+                                                    <!-- Présentation Section -->
+                                    <section id="about-presentation" class="relative py-20 bg-gradient-to-br from-gray-50 via-green-50 to-emerald-50 dark:from-gray-900 dark:via-green-900 dark:to-emerald-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
-                                            <div class="absolute top-20 left-10 w-32 h-32 bg-blue-200/20 dark:bg-blue-400/10 rounded-full blur-3xl animate-float-slow"></div>
-                                            <div class="absolute bottom-20 right-10 w-40 h-40 bg-indigo-200/20 dark:bg-indigo-400/10 rounded-full blur-3xl animate-float-delayed"></div>
-                                            <div class="absolute top-1/2 left-1/4 w-24 h-24 bg-blue-300/15 dark:bg-blue-500/10 rounded-full blur-2xl animate-float"></div>
+                                            <div class="absolute top-20 left-10 w-32 h-32 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute bottom-20 right-10 w-40 h-40 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute top-1/2 left-1/4 w-24 h-24 bg-lime-300/15 dark:bg-lime-500/10 rounded-full blur-2xl animate-float"></div>
                                         </div>
-
                                         <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
                                             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-                                                <!-- Content -->
+                                                <!-- Texte Présentation -->
                                                 <div class="space-y-8 animate-slide-up">
                                                     <div class="inline-flex items-center">
-                                                        <span class="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-blue-500/20 group">
-                                                            <span class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                        <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-green-500/20 group">
+                                                            <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                             <span class="relative">Qui sommes-nous ?</span>
                                                         </span>
                                                     </div>
-
-                                                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-800 dark:from-white dark:via-blue-200 dark:to-indigo-200 bg-clip-text text-transparent leading-tight">
+                                                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-green-800 to-emerald-800 dark:from-white dark:via-green-200 dark:to-emerald-200 bg-clip-text text-transparent leading-tight">
                                                         AMES SARL, votre partenaire de confiance depuis 2003
                                                     </h2>
-
                                                     <p class="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed font-medium">
-                                                        Société béninoise située à Cadjehoun Kpota Cotonou, AMES SARL représente, importe et distribue les équipements médicaux, consommables et réactifs de laboratoire pour le diagnostic in vitro.
+
+                                                        Depuis plus de 21 ans, nous accompagnons les professionnels de santé, laboratoires et hôpitaux du Bénin et d’Afrique de l’Ouest avec des solutions fiables, innovantes et adaptées à leurs besoins. Notre équipe expérimentée assure un suivi personnalisé, une assistance technique et un service après-vente réactif.
+                                                        <br><br>
+                                                        Nous travaillons en partenariat avec les plus grands fournisseurs internationaux pour garantir la qualité et la sécurité des équipements installés. Notre engagement : améliorer l’accès aux soins de santé de qualité, soutenir le développement des infrastructures médicales et contribuer à la performance des établissements de santé.
                                                     </p>
-
-                                                    <!-- Services grid -->
-                                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                                        <div class="group flex items-center space-x-4 p-4 rounded-2xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border border-white/20 dark:border-gray-700/20 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-500 transform hover:scale-105">
-                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-blue-500/25 transition-all duration-500">
-                                                                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
-                                                                    <circle cx="12" cy="12" r="10"/>
-                                                                </svg>
-                                                            </div>
-                                                            <span class="text-gray-800 dark:text-gray-200 font-semibold">Équipements médicaux</span>
-                                                        </div>
-
-                                                        <div class="group flex items-center space-x-4 p-4 rounded-2xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border border-white/20 dark:border-gray-700/20 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-500 transform hover:scale-105">
-                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-indigo-500/25 transition-all duration-500">
-                                                                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
-                                                                    <circle cx="12" cy="12" r="10"/>
-                                                                </svg>
-                                                            </div>
-                                                            <span class="text-gray-800 dark:text-gray-200 font-semibold">Imagerie médicale</span>
-                                                        </div>
-
-                                                        <div class="group flex items-center space-x-4 p-4 rounded-2xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border border-white/20 dark:border-gray-700/20 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-500 transform hover:scale-105">
-                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-purple-500/25 transition-all duration-500">
-                                                                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
-                                                                    <circle cx="12" cy="12" r="10"/>
-                                                                </svg>
-                                                            </div>
-                                                            <span class="text-gray-800 dark:text-gray-200 font-semibold">Matériel de laboratoire</span>
-                                                        </div>
-
-                                                        <div class="group flex items-center space-x-4 p-4 rounded-2xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border border-white/20 dark:border-gray-700/20 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-500 transform hover:scale-105">
-                                                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-pink-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-pink-500/25 transition-all duration-500">
-                                                                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
-                                                                    <circle cx="12" cy="12" r="10"/>
-                                                                </svg>
-                                                            </div>
-                                                            <span class="text-gray-800 dark:text-gray-200 font-semibold">Maintenance &amp; SAV</span>
-                                                        </div>
-                                                    </div>
                                                 </div>
-
-                                                <!-- Stats -->
+                                                <!-- Statistiques -->
                                                 <div class="grid grid-cols-2 gap-6 animate-slide-up-delay">
                                                     <div class="group relative text-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-3">21+</div>
+                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-3">21+</div>
                                                             <p class="text-gray-600 dark:text-gray-400 font-semibold text-sm sm:text-base">Années d'expérience</p>
                                                         </div>
                                                     </div>
 
                                                     <div class="group relative text-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-lime-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-3">500+</div>
+                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-emerald-600 to-lime-600 bg-clip-text text-transparent mb-3">500+</div>
                                                             <p class="text-gray-600 dark:text-gray-400 font-semibold text-sm sm:text-base">Équipements installés</p>
                                                         </div>
                                                     </div>
 
-                                                    <div class="group relative text-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="group relative flex flex-col items-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-lime-500/10 to-green-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-3">200+</div>
+                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-lime-600 to-green-600 bg-clip-text text-transparent mb-3">200+</div>
                                                             <p class="text-gray-600 dark:text-gray-400 font-semibold text-sm sm:text-base">Clients satisfaits</p>
                                                         </div>
                                                     </div>
 
                                                     <div class="group relative text-center p-6 sm:p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-pink-500/10 to-red-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-pink-600 to-red-600 bg-clip-text text-transparent mb-3">50+</div>
+                                                            <div class="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-3">50+</div>
                                                             <p class="text-gray-600 dark:text-gray-400 font-semibold text-sm sm:text-base">Partenaires techniques</p>
                                                         </div>
                                                     </div>
@@ -328,59 +286,132 @@
                                         </div>
                                     </section>
 
-
-
-
-
-
-                                    <!-- Mission & Vision Section -->
-                                    <section class="relative py-20 bg-gradient-to-br from-white via-gray-50 to-blue-50 dark:from-gray-800 dark:via-gray-900 dark:to-blue-900 overflow-hidden">
+                                    <!-- Services Section -->
+                                    <section id="about-services" class="relative py-20 bg-gradient-to-br from-white via-gray-50 to-green-50 dark:from-gray-800 dark:via-gray-900 dark:to-green-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
-                                            <div class="absolute top-20 right-10 w-32 h-32 bg-blue-200/20 dark:bg-blue-400/10 rounded-full blur-3xl animate-float-slow"></div>
-                                            <div class="absolute bottom-20 left-10 w-40 h-40 bg-indigo-200/20 dark:bg-indigo-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute top-20 left-10 w-32 h-32 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute bottom-20 right-10 w-40 h-40 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute top-1/2 left-1/4 w-24 h-24 bg-lime-300/15 dark:bg-lime-500/10 rounded-full blur-2xl animate-float"></div>
+                                        </div>
+                                        <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
+                                            <div class="text-center space-y-8 animate-slide-up">
+                                                <div class="inline-flex items-center justify-center">
+                                                    <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-3 rounded-full font-bold tracking-widest text-lg shadow-2xl border border-green-500/20 group">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                        <span class="relative">Nos Services</span>
+                                                    </span>
+                                                </div>
+                                                <p class="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed font-medium max-w-3xl mx-auto">
+                                                    AMES SARL propose une gamme complète de services pour répondre aux besoins des professionnels de santé et des laboratoires. Notre expertise couvre l’accompagnement de vos projets, la fourniture d’équipements de pointe, l’installation, la formation, la maintenance et le suivi technique.
+                                                </p>
+                                                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pt-8">
+                                                    <!-- Équipements médicaux -->
+                                                    <div class="group flex flex-col items-center p-6 rounded-2xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/20 dark:border-gray-700/20 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+                                                        <div class="flex-shrink-0 w-14 h-14 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-green-500/25 transition-all duration-500 mb-4">
+                                                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
+                                                                <circle cx="12" cy="12" r="10"/>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="text-gray-800 dark:text-gray-200 font-semibold text-lg">Équipements médicaux</span>
+                                                        <p class="text-gray-600 dark:text-gray-400 text-sm mt-2 text-center">
+                                                            Fourniture et installation d’appareils médicaux de pointe pour hôpitaux et cliniques : blocs opératoires, équipements de monitoring, dispositifs de soins intensifs, mobilier médical, etc.
+                                                        </p>
+                                                    </div>
+                                                    <!-- Imagerie médicale -->
+                                                    <div class="group flex flex-col items-center p-6 rounded-2xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/20 dark:border-gray-700/20 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+                                                        <div class="flex-shrink-0 w-14 h-14 bg-gradient-to-r from-emerald-500 to-lime-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-emerald-500/25 transition-all duration-500 mb-4">
+                                                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
+                                                                <circle cx="12" cy="12" r="10"/>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="text-gray-800 dark:text-gray-200 font-semibold text-lg">Imagerie médicale</span>
+                                                        <p class="text-gray-600 dark:text-gray-400 text-sm mt-2 text-center">
+                                                            Solutions d’imagerie médicale modernes : radiologie, échographie, scanner, IRM, mammographie, pour un diagnostic précis et rapide.
+                                                        </p>
+                                                    </div>
+                                                    <!-- Matériel de laboratoire -->
+                                                    <div class="group flex flex-col items-center p-6 rounded-2xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/20 dark:border-gray-700/20 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+                                                        <div class="flex-shrink-0 w-14 h-14 bg-gradient-to-r from-lime-500 to-green-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-lime-500/25 transition-all duration-500 mb-4">
+                                                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
+                                                                <circle cx="12" cy="12" r="10"/>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="text-gray-800 dark:text-gray-200 font-semibold text-lg">Matériel de laboratoire</span>
+                                                        <p class="text-gray-600 dark:text-gray-400 text-sm mt-2 text-center">
+                                                            Distribution de consommables, réactifs et équipements pour le diagnostic in vitro, la recherche biomédicale et les analyses spécialisées.
+                                                        </p>
+                                                    </div>
+                                                    <!-- Maintenance & SAV -->
+                                                    <div class="group flex flex-col items-center p-6 rounded-2xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/20 dark:border-gray-700/20 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+                                                        <div class="flex-shrink-0 w-14 h-14 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-green-500/25 transition-all duration-500 mb-4">
+                                                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4"/>
+                                                                <circle cx="12" cy="12" r="10"/>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="text-gray-800 dark:text-gray-200 font-semibold text-lg">Maintenance &amp; SAV</span>
+                                                        <p class="text-gray-600 dark:text-gray-400 text-sm mt-2 text-center">
+                                                            Assistance technique, maintenance préventive et curative, service après-vente rapide, formation des utilisateurs.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Mission & Vision Section -->
+                                    <section class="relative py-20 bg-gradient-to-br from-green-50 via-emerald-50 to-blue-50 dark:from-green-900 dark:via-emerald-900 dark:to-blue-900 overflow-hidden">
+                                        <!-- Background decorative elements -->
+                                        <div class="absolute inset-0">
+                                            <div class="absolute top-20 right-10 w-32 h-32 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute bottom-20 left-10 w-40 h-40 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-delayed"></div>
                                         </div>
 
                                         <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
                                             <div class="text-center space-y-12 animate-slide-up">
                                                 <!-- Badge -->
-                                                <div class="inline-flex items-center">
-                                                    <span class="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-blue-500/20 group">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                <div class="inline-flex items-center justify-center">
+                                                    <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-3 rounded-full font-bold tracking-widest text-lg shadow-2xl border border-green-500/20 group">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative">Notre Mission & Vision</span>
                                                     </span>
                                                 </div>
 
                                                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
                                                     <!-- Mission -->
-                                                    <div class="group relative p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="group relative p-8 rounded-3xl bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border border-green-200/30 dark:border-green-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                                                            <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-6 mx-auto">
                                                                 <svg class="h-8 w-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                                                                 </svg>
                                                             </div>
-                                                            <h3 class="text-2xl font-black bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-4">Notre Mission</h3>
+                                                            <h3 class="text-2xl font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-4">Notre Mission</h3>
                                                             <p class="text-gray-700 dark:text-gray-300 leading-relaxed font-medium">
-                                                                Améliorer l'accès aux soins de santé de qualité au Bénin et en Afrique de l'Ouest en fournissant des équipements médicaux de pointe, des consommables fiables et des réactifs de laboratoire de haute qualité pour un diagnostic précis et efficace.
+                                                                Améliorer l'accès aux soins de santé de qualité au Bénin et en Afrique de l'Ouest en fournissant des équipements médicaux de pointe, des consommables fiables et des réactifs de laboratoire de haute qualité pour un diagnostic précis et efficace.<br>
+                                                                Nous accompagnons les établissements de santé dans la modernisation de leurs infrastructures, la formation des équipes médicales et garantissons un suivi technique ainsi qu’un service après-vente réactif et personnalisé.
                                                             </p>
                                                         </div>
                                                     </div>
 
                                                     <!-- Vision -->
-                                                    <div class="group relative p-8 rounded-3xl bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
-                                                        <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                    <div class="group relative p-8 rounded-3xl bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border border-blue-200/30 dark:border-blue-700/30 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
+                                                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                         <div class="relative">
-                                                            <div class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                                                            <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-6 mx-auto">
                                                                 <svg class="h-8 w-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
                                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
                                                                 </svg>
                                                             </div>
-                                                            <h3 class="text-2xl font-black bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4">Notre Vision</h3>
+                                                            <h3 class="text-2xl font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-4">Notre Vision</h3>
                                                             <p class="text-gray-700 dark:text-gray-300 leading-relaxed font-medium">
-                                                                Devenir le leader incontournable de la distribution d'équipements médicaux en Afrique de l'Ouest, reconnu pour notre expertise technique, notre service client exceptionnel et notre contribution à l'amélioration des soins de santé dans la région.
+                                                                Devenir le leader incontournable de la distribution d'équipements médicaux en Afrique de l'Ouest, reconnu pour notre expertise technique, notre service client exceptionnel et notre contribution à l'amélioration des soins de santé dans la région.<br>
+                                                                Être une référence en innovation, qualité et accompagnement, tout en favorisant l’accès aux technologies médicales les plus avancées pour tous.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -390,7 +421,7 @@
                                     </section>
 
                                     <!-- CTA Section -->
-                                    <section id="contact" class="relative py-20 bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 overflow-hidden">
+                                    <section id="contact" class="relative py-20 bg-gradient-to-br from-green-900 via-emerald-900 to-green-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
                                             <div class="absolute top-10 left-10 w-40 h-40 bg-white/10 rounded-full blur-3xl animate-float-slow"></div>
@@ -403,7 +434,7 @@
                                                 <!-- Badge -->
                                                 <div class="inline-flex items-center">
                                                     <span class="relative bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-white/20 group">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative">Partenariat & Contact</span>
                                                     </span>
                                                 </div>
@@ -441,19 +472,18 @@
                                                         <span class="absolute inset-0 bg-gradient-to-r from-white/5 to-white/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <svg class="mr-3 h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M22 16.92V19a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09a2 2 0 0 1 2 1.72c.13 1.13.37 2.23.72 3.28a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c1.05.35 2.15.59 3.28.72A2 2 0 0 1 22 16.92z"/>
+                                                    </svg>
+                                                    <span class="relative">Appel direct</span>
+                                                </a>
+                                                <a href="#" class="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-white to-green-50 text-green-700 font-bold rounded-2xl shadow-2xl text-lg hover:shadow-green-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-green-300/50 w-full sm:w-auto">
+                                                    <span class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <span class="relative flex items-center justify-center">
+                                                    Demander un devis
+                                                        <svg class="ml-3 h-6 w-6 text-green-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
                                                         </svg>
-                                                        <span class="relative">Appel direct</span>
-                                                    </a>
-                                                    <a href="#" class="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-white to-blue-50 text-blue-700 font-bold rounded-2xl shadow-2xl text-lg hover:shadow-blue-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-blue-300/50 w-full sm:w-auto">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
-                                                        <span class="relative flex items-center justify-center">
-                                                        Demander un devis
-                                                            <svg class="ml-3 h-6 w-6 text-blue-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                                                            </svg>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                     </section>
@@ -461,7 +491,7 @@
                             </div>
 
                             <!-- Footer -->
-                            <footer class="relative bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
+                            <footer class="relative bg-gradient-to-br from-gray-900 via-green-900 to-emerald-900 text-white overflow-hidden">
                                 <!-- Background decorative elements -->
                                 <div class="absolute inset-0">
                                     <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-600/10 to-indigo-600/10"></div>
@@ -474,10 +504,10 @@
                                         <!-- Company Info -->
                                         <div class="lg:col-span-2 space-y-6">
                                             <div class="flex items-center space-x-3">
-                                                <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center">
-                                                    <span class="text-xl font-black text-white">A</span>
+                                                <div class="w-12 h-12  rounded-xl flex items-center justify-center">
+                                                   <img src="{{ asset('assets/logo-ames.png') }}" alt="">
                                                 </div>
-                                                <h3 class="text-2xl font-black bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">AMES MED EQUIPEMENTS</h3>
+                                                <h3 class="text-2xl font-black bg-gradient-to-r from-white to-green-700 bg-clip-text text-transparent">AMES MED EQUIPEMENTS</h3>
                                             </div>
                                             <p class="text-white/80 leading-relaxed max-w-md">
                                                 Société béninoise spécialisée dans la représentation, l'importation et la distribution d'équipements médicaux, consommables et réactifs de laboratoire pour le diagnostic in vitro.
@@ -496,7 +526,7 @@
                                                 <a href="#" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
                                                     <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                                                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                                                    </svg>
+                                                </svg>
                                                 </a>
                                             </div>
                                         </div>
@@ -505,10 +535,9 @@
                                         <div class="space-y-6">
                                             <h4 class="text-lg font-bold text-white">Liens Rapides</h4>
                                             <ul class="space-y-3">
-                                                <li><a href="#produits" class="text-white/80 hover:text-white transition-colors duration-300">Nos Produits</a></li>
-                                                <li><a href="#contact" class="text-white/80 hover:text-white transition-colors duration-300">Contact</a></li>
-                                                <li><a href="#" class="text-white/80 hover:text-white transition-colors duration-300">À Propos</a></li>
-                                                <li><a href="#" class="text-white/80 hover:text-white transition-colors duration-300">Services</a></li>
+                                                <li><a href="/catalogue" class="text-white/80 hover:text-white transition-colors duration-300">Nos Produits</a></li>
+                                                <li><a href="/contact" class="text-white/80 hover:text-white transition-colors duration-300">Contact</a></li>
+                                                <li><a href="/about" class="text-white/80 hover:text-white transition-colors duration-300">À Propos</a></li>
                                             </ul>
                                         </div>
 
@@ -525,7 +554,7 @@
                                                 </div>
                                                 <div class="flex items-center space-x-3">
                                                     <svg class="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.27-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 0 1-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                                                     </svg>
                                                     <span class="text-white/80 text-sm">+229 XX XX XX XX</span>
                                                 </div>

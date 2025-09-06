@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="shortcut icon" href="{{ asset('assets/logo-ames.png') }}" type="image/x-icon">
+
 
         <title>AMES</title>
 
@@ -28,13 +30,13 @@
                                         <!-- Background Image with Overlay -->
                                         <div class="absolute inset-0">
                                             <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('{{ asset('assets/lab-equipment.jpg') }}');"></div>
-                                            <div class="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-indigo-900/70 to-purple-900/80"></div>
-                                            <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-600/20"></div>
+                                            <div class="absolute inset-0 bg-gradient-to-br from-green-900/80 via-emerald-900/70 to-blue-900/80"></div>
+                                            <div class="absolute inset-0 bg-gradient-to-r from-green-600/20 via-emerald-600/20 to-blue-600/20"></div>
                                             <!-- Floating geometric shapes -->
-                                            <div class="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl animate-float"></div>
-                                            <div class="absolute top-40 right-20 w-32 h-32 bg-blue-400/20 rounded-full blur-2xl animate-float-delayed"></div>
-                                            <div class="absolute bottom-20 left-1/4 w-16 h-16 bg-indigo-400/15 rounded-full blur-lg animate-float-slow"></div>
-                                            <div class="absolute bottom-40 right-1/3 w-24 h-24 bg-white/5 rounded-full blur-xl animate-float-delayed-2"></div>
+                                            <div class="absolute top-20 left-10 w-20 h-20 bg-green-200/20 rounded-full blur-xl animate-float"></div>
+                                            <div class="absolute top-40 right-20 w-32 h-32 bg-emerald-400/20 rounded-full blur-2xl animate-float-delayed"></div>
+                                            <div class="absolute bottom-20 left-1/4 w-16 h-16 bg-blue-400/15 rounded-full blur-lg animate-float-slow"></div>
+                                            <div class="absolute bottom-40 right-1/3 w-24 h-24 bg-white/10 rounded-full blur-xl animate-float-delayed-2"></div>
                                         </div>
 
                                         <!-- Navbar -->
@@ -42,10 +44,10 @@
                                             <div class="max-w-7xl mx-auto flex items-center justify-between">
                                                 <!-- Logo -->
                                                 <div class="flex items-center space-x-3">
-                                                    <div class="w-10 h-10 bg-gradient-to-r from-white to-blue-100 rounded-xl flex items-center justify-center shadow-lg">
-                                                        <span class="text-xl font-black text-blue-700">A</span>
-                                            </div>
-                                                    <span class="text-xl font-bold text-white hidden sm:block">AMES MED</span>
+                                                    <div class="w-10 h-10 flex bg-white rounded shadow items-center justify-center">
+                                                   <img src="{{ asset('assets/logo-ames.png') }}" alt="">
+                                                </div>
+                                                    <span class="text-xl font-bold bg-gradient-to-r from-white to-green-700 bg-clip-text text-transparent hidden sm:block">AMES</span>
                                                 </div>
 
                                                 <!-- Desktop Menu -->
@@ -120,18 +122,18 @@
                                             <div class="text-center space-y-8 pt-16 sm:pt-20 md:pt-24">
                                                 <!-- Badge -->
                                                 <div class="inline-flex items-center justify-center animate-slide-up">
-                                                    <span class="relative bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md text-white px-8 py-3 rounded-full font-bold tracking-widest text-lg shadow-2xl border border-white/20 hover:border-white/40 transition-all duration-500 group">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <span class="relative bg-gradient-to-r from-green-600/30 to-emerald-600/20 backdrop-blur-md text-white px-8 py-3 rounded-full font-bold tracking-widest text-lg shadow-2xl border border-green-500/20 hover:border-green-400/40 transition-all duration-500 group">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative">NOTRE CATALOGUE</span>
                                                     </span>
                                                 </div>
 
                                                 <!-- Main heading -->
                                                 <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 sm:mb-8 animate-slide-up-delay px-4">
-                                                    <span class="bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent drop-shadow-2xl block">
+                                                    <span class="bg-gradient-to-r from-white via-green-100 to-emerald-200 bg-clip-text text-transparent drop-shadow-2xl block">
                                                         Équipements Médicaux
                                                     </span>
-                                                    <span class="bg-gradient-to-r from-blue-200 via-white to-indigo-200 bg-clip-text text-transparent drop-shadow-2xl block">
+                                                    <span class="bg-gradient-to-r from-green-200 via-white to-emerald-200 bg-clip-text text-transparent drop-shadow-2xl block">
                                                         de Haute Qualité
                                                     </span>
                                                 </h1>
@@ -143,11 +145,11 @@
 
                                                 <!-- CTA Buttons -->
                                                 <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center animate-slide-up-delay-3 px-4 pb-4">
-                                                    <a href="#produits" class="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-white to-blue-50 text-blue-700 font-bold rounded-2xl shadow-2xl text-base sm:text-lg hover:shadow-blue-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-blue-300/50 w-full sm:w-auto">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <a href="#produits" class="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-white to-green-50 text-green-700 font-bold rounded-2xl shadow-2xl text-base sm:text-lg hover:shadow-green-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-green-300/50 w-full sm:w-auto">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative flex items-center justify-center">
                                                             Découvrir nos produits
-                                                            <svg class="ml-2 sm:ml-3 h-5 w-5 sm:h-6 sm:w-6 text-blue-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                            <svg class="ml-2 sm:ml-3 h-5 w-5 sm:h-6 sm:w-6 text-green-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
                                                             </svg>
                                                         </span>
@@ -223,24 +225,24 @@
 
 
                                     <!-- Featured Products Carousel (statique) -->
-                                    <section id="produits" class="relative py-20 bg-gradient-to-br from-gray-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-indigo-900 dark:to-purple-900 overflow-hidden">
+                                    <section id="produits" class="relative py-20 bg-gradient-to-br from-green-50 via-emerald-50 to-blue-50 dark:from-green-900 dark:via-emerald-900 dark:to-blue-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
-                                            <div class="absolute top-20 left-10 w-36 h-36 bg-indigo-200/20 dark:bg-indigo-400/10 rounded-full blur-3xl animate-float-slow"></div>
-                                            <div class="absolute bottom-20 right-10 w-44 h-44 bg-purple-200/20 dark:bg-purple-400/10 rounded-full blur-3xl animate-float-delayed"></div>
-                                            <div class="absolute top-1/2 left-1/3 w-28 h-28 bg-blue-200/15 dark:bg-blue-400/10 rounded-full blur-2xl animate-float"></div>
+                                            <div class="absolute top-20 left-10 w-36 h-36 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute bottom-20 right-10 w-44 h-44 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute top-1/2 left-1/3 w-28 h-28 bg-blue-300/15 dark:bg-blue-500/10 rounded-full blur-2xl animate-float"></div>
                                         </div>
 
                                         <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
                                             <div class="text-center mb-16 animate-slide-up">
                                                 <div class="inline-flex items-center mb-6">
-                                                    <span class="relative bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-bold text-sm tracking-wider shadow-lg border border-purple-500/20 group">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-3 rounded-full font-bold tracking-widest text-lg shadow-2xl border border-green-500/20 group">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative">Nos Produits Phares</span>
                                                     </span>
                                                 </div>
 
-                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 via-purple-800 to-pink-800 dark:from-white dark:via-purple-200 dark:to-pink-200 bg-clip-text text-transparent mb-6 leading-tight">
+                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-green-900 via-emerald-800 to-blue-800 dark:from-white dark:via-green-200 dark:to-blue-200 bg-clip-text text-transparent mb-6 leading-tight">
                                                     Solutions d'Excellence pour la Santé
                                                 </h2>
 
@@ -251,8 +253,8 @@
 
                                             <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
                                                 <!-- Product 1 -->
-                                                <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-green-200/30 dark:border-green-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay">
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative p-6 flex flex-col h-full">
                                                         <div class="relative overflow-hidden rounded-2xl mb-6">
                                                             <img src="{{ asset('/assets/lab-equipment.jpg') }}" alt="Automate Biochimie LIDA 300" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
@@ -262,16 +264,16 @@
                                                             <h3 class="text-xl font-black text-gray-900 dark:text-white mb-3">Automate Biochimie LIDA 300</h3>
                                                             <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed flex-1">Analyseur de biochimie automatisé haute performance pour laboratoires cliniques</p>
                                                             <div class="flex items-center justify-between mb-4">
-                                                                <span class="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Laboratoire</span>
-                                                                <div class="text-sm font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Prix sur devis</div>
+                                                                <span class="inline-block bg-gradient-to-r from-blue-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Laboratoire</span>
+                                                                <div class="text-sm font-bold bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent">Prix sur devis</div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
                                                 <!-- Product 2 -->
-                                                <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay-2">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-green-200/30 dark:border-green-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay-2">
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-blue-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative p-6 flex flex-col h-full">
                                                         <div class="relative overflow-hidden rounded-2xl mb-6">
                                                             <img src="{{ asset('/assets/imaging-equipment.jpg') }}" alt="Équipement d'Imagerie Médicale" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
@@ -281,16 +283,16 @@
                                                             <h3 class="text-xl font-black text-gray-900 dark:text-white mb-3">Équipement d'Imagerie Médicale</h3>
                                                             <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed flex-1">Solutions d'imagerie avancées pour diagnostics précis</p>
                                                             <div class="flex items-center justify-between mb-4">
-                                                                <span class="inline-block bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Imagerie</span>
-                                                                <div class="text-sm font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Prix sur devis</div>
+                                                                <span class="inline-block bg-gradient-to-r from-emerald-500 to-blue-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Imagerie</span>
+                                                                <div class="text-sm font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">Prix sur devis</div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
                                                 <!-- Product 3 -->
-                                                <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-white/30 dark:border-gray-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay-3 md:col-span-2 lg:col-span-1">
-                                                    <div class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-green-200/30 dark:border-green-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden animate-slide-up-delay-3 md:col-span-2 lg:col-span-1">
+                                                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                                     <div class="relative p-6 flex flex-col h-full">
                                                         <div class="relative overflow-hidden rounded-2xl mb-6">
                                                             <img src="{{ asset('/assets/lab-equipment.jpg') }}" alt="Vibromètre-accéléromètre" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
@@ -300,8 +302,8 @@
                                                             <h3 class="text-xl font-black text-gray-900 dark:text-white mb-3">Vibromètre-accéléromètre</h3>
                                                             <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed flex-1">Instrument de mesure des vibrations pour applications médicales</p>
                                                             <div class="flex items-center justify-between mb-4">
-                                                                <span class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Mesure</span>
-                                                                <div class="text-sm font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Prix sur devis</div>
+                                                                <span class="inline-block bg-gradient-to-r from-blue-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-semibold">Mesure</span>
+                                                                <div class="text-sm font-bold bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent">Prix sur devis</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -312,8 +314,80 @@
 
 
 
+                                    <!-- Section Produits par Catégorie -->
+                                    <section id="produits" class="relative py-20 bg-gradient-to-br from-green-50 via-emerald-50 to-blue-50 dark:from-green-900 dark:via-emerald-900 dark:to-blue-900 overflow-hidden">
+                                        <!-- Background decorative elements -->
+                                        <div class="absolute inset-0">
+                                            <div class="absolute top-20 left-10 w-36 h-36 bg-green-200/20 dark:bg-green-400/10 rounded-full blur-3xl animate-float-slow"></div>
+                                            <div class="absolute bottom-20 right-10 w-44 h-44 bg-emerald-200/20 dark:bg-emerald-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+                                            <div class="absolute top-1/2 left-1/3 w-28 h-28 bg-blue-300/15 dark:bg-blue-500/10 rounded-full blur-2xl animate-float"></div>
+                                        </div>
+
+                                        <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
+                                            <div class="text-center mb-16 animate-slide-up">
+                                                <div class="inline-flex items-center mb-6">
+                                                    <span class="relative bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-3 rounded-full font-bold tracking-widest text-lg shadow-2xl border border-green-500/20 group">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                        <span class="relative">Nos Catégories & Produits</span>
+                                                    </span>
+                                                </div>
+                                                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-green-900 via-emerald-800 to-blue-800 dark:from-white dark:via-green-200 dark:to-blue-200 bg-clip-text text-transparent mb-6 leading-tight">
+                                                    Découvrez nos équipements par catégorie
+                                                </h2>
+                                                <p class="text-lg sm:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed font-medium">
+                                                    Parcourez toutes nos catégories et trouvez les produits adaptés à vos besoins.
+                                                </p>
+                                            </div>
+
+                                            <!-- Affichage des catégories et produits -->
+                                            <div class="max-w-6xl mx-auto space-y-16">
+                                                @foreach($categories as $categorie)
+                                                    <div class="animate-slide-up-delay">
+                                                        <div class="flex items-center mb-8">
+                                                            <span class="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-2 rounded-full font-bold text-lg shadow-lg mr-4">
+                                                                {{ $categorie->nom }}
+                                                            </span>
+                                                            <span class="text-gray-500 dark:text-gray-400 text-base font-medium">
+                                                                {{ $categorie->description ?? '' }}
+                                                            </span>
+                                                        </div>
+                                                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+                                                            @forelse($categorie->produits as $produit)
+                                                                <div class="group relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-md border border-green-200/30 dark:border-green-700/30 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 overflow-hidden">
+                                                                    <div class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                                    <div class="relative p-6 flex flex-col h-full">
+                                                                        <div class="relative overflow-hidden rounded-2xl mb-6">
+                                                                            <img src="{{ asset($produit->image ?? '/assets/lab-equipment.jpg') }}" alt="{{ $produit->nom }}" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                                                                            <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                                                        </div>
+                                                                        <div class="flex-1 flex flex-col">
+                                                                            <h3 class="text-xl font-black text-gray-900 dark:text-white mb-3">{{ $produit->nom }}</h3>
+                                                                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed flex-1">{{ $produit->description }}</p>
+                                                                            <div class="flex items-center justify-between mb-4">
+                                                                                <span class="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-semibold">{{ $categorie->nom }}</span>
+                                                                                <div class="text-sm font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+                                                                                    {{ $produit->prix ? number_format($produit->prix, 0, ',', ' ') . ' FCFA' : 'Prix sur devis' }}
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            @empty
+                                                                <div class="col-span-3 text-center text-gray-400 dark:text-gray-500 py-8">
+                                                                    Aucun produit dans cette catégorie.
+                                                                </div>
+                                                            @endforelse
+                                                        </div>
+                                                    </div>
+                                                @endforeach
+                                            </div>
+                                        </div>
+                                    </section>
+
+
+
                                     <!-- CTA Section -->
-                                    <section id="contact" class="relative py-20 bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 overflow-hidden">
+                                    <section id="contact" class="relative py-20 bg-gradient-to-br from-green-900 via-emerald-900 to-green-900 overflow-hidden">
                                         <!-- Background decorative elements -->
                                         <div class="absolute inset-0">
                                             <div class="absolute top-10 left-10 w-40 h-40 bg-white/10 rounded-full blur-3xl animate-float-slow"></div>
@@ -367,11 +441,11 @@
                                                         </svg>
                                                         <span class="relative">Appel direct</span>
                                                     </a>
-                                                    <a href="#" class="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-white to-blue-50 text-blue-700 font-bold rounded-2xl shadow-2xl text-lg hover:shadow-blue-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-blue-300/50 w-full sm:w-auto">
-                                                        <span class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                                                    <a href="#" class="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-white to-green-50 text-green-700 font-bold rounded-2xl shadow-2xl text-lg hover:shadow-green-500/25 transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 focus:ring-4 focus:ring-green-300/50 w-full sm:w-auto">
+                                                        <span class="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                                                         <span class="relative flex items-center justify-center">
                                                         Demander un devis
-                                                            <svg class="ml-3 h-6 w-6 text-blue-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                            <svg class="ml-3 h-6 w-6 text-gree-700 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
                                                             </svg>
                                                         </span>
@@ -383,8 +457,8 @@
                                 </div>
                             </div>
 
-                            <!-- Footer -->
-                            <footer class="relative bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
+                           <!-- Footer -->
+                            <footer class="relative bg-gradient-to-br from-gray-900 via-green-900 to-emerald-900 text-white overflow-hidden">
                                 <!-- Background decorative elements -->
                                 <div class="absolute inset-0">
                                     <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-600/10 to-indigo-600/10"></div>
@@ -397,10 +471,10 @@
                                         <!-- Company Info -->
                                         <div class="lg:col-span-2 space-y-6">
                                             <div class="flex items-center space-x-3">
-                                                <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center">
-                                                    <span class="text-xl font-black text-white">A</span>
+                                                <div class="w-12 h-12  rounded-xl flex items-center justify-center">
+                                                   <img src="{{ asset('assets/logo-ames.png') }}" alt="">
                                                 </div>
-                                                <h3 class="text-2xl font-black bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">AMES MED EQUIPEMENTS</h3>
+                                                <h3 class="text-2xl font-black bg-gradient-to-r from-white to-green-700 bg-clip-text text-transparent">AMES MED EQUIPEMENTS</h3>
                                             </div>
                                             <p class="text-white/80 leading-relaxed max-w-md">
                                                 Société béninoise spécialisée dans la représentation, l'importation et la distribution d'équipements médicaux, consommables et réactifs de laboratoire pour le diagnostic in vitro.
@@ -419,7 +493,7 @@
                                                 <a href="#" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
                                                     <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                                                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                                                    </svg>
+                                                </svg>
                                                 </a>
                                             </div>
                                         </div>
@@ -428,10 +502,9 @@
                                         <div class="space-y-6">
                                             <h4 class="text-lg font-bold text-white">Liens Rapides</h4>
                                             <ul class="space-y-3">
-                                                <li><a href="#produits" class="text-white/80 hover:text-white transition-colors duration-300">Nos Produits</a></li>
-                                                <li><a href="#contact" class="text-white/80 hover:text-white transition-colors duration-300">Contact</a></li>
-                                                <li><a href="#" class="text-white/80 hover:text-white transition-colors duration-300">À Propos</a></li>
-                                                <li><a href="#" class="text-white/80 hover:text-white transition-colors duration-300">Services</a></li>
+                                                <li><a href="/catalogue" class="text-white/80 hover:text-white transition-colors duration-300">Nos Produits</a></li>
+                                                <li><a href="/contact" class="text-white/80 hover:text-white transition-colors duration-300">Contact</a></li>
+                                                <li><a href="/about" class="text-white/80 hover:text-white transition-colors duration-300">À Propos</a></li>
                                             </ul>
                                         </div>
 
@@ -448,7 +521,7 @@
                                                 </div>
                                                 <div class="flex items-center space-x-3">
                                                     <svg class="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 0 1-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                                                     </svg>
                                                     <span class="text-white/80 text-sm">+229 XX XX XX XX</span>
                                                 </div>
@@ -474,11 +547,11 @@
                                     </div>
                                 </div>
                             </footer>
-            </div>
-        </div>
+                                </div>
+                            </div>
 
-        <!-- JavaScript for Mobile Menu -->
-        <script>
+                            <!-- Scripts -->
+                            <script>
             document.addEventListener('DOMContentLoaded', function() {
                 const mobileMenuButton = document.getElementById('mobile-menu-button');
                 const mobileMenu = document.getElementById('mobile-menu');

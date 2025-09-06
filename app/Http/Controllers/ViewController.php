@@ -23,7 +23,8 @@ class ViewController extends Controller
 
     public function catalogue()
     {
-        return view('catalogue');
+        $categories = Categorie::with('produits')->get();
+        return view('catalogue', compact('categories'));
     }
 
     public function contact()
