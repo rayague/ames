@@ -212,7 +212,7 @@
                                                 @foreach($messagesToday as $message)
                                                     <tr>
                                                         <td>{{ $message->name }}</td>
-                                                        <td>{{ $message->email }}</td>
+                                                        <td><a href="mailto:{{ $message->email }}">{{ $message->email }}</a></td>
                                                         <td>{{ $message->phone ?? '-' }}</td>
                                                         <td>{{ ucfirst($message->subject) }}</td>
                                                         <td>{{ Str::limit($message->message, 50) }}</td>
